@@ -16,7 +16,7 @@ a:hover{text-decoration:underline}
 .site-header{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:50}
 .header-inner{display:flex;align-items:center;justify-content:space-between;min-height:64px}
 .brand{font-weight:800;font-size:1.15rem;letter-spacing:.3px}
-.nav a{margin-left:20px}
+.nav a{margin-left:20px;color:var(--accent)}
 .hero{padding:80px 0 60px;border-bottom:1px solid var(--line)}
 .hero h1{font-size:2.6rem;line-height:1.2;margin:0 0 10px}
 .tagline{color:var(--muted);max-width:800px}
