@@ -52,3 +52,12 @@ blockquote{border-left:3px solid var(--accent);padding-left:12px;color:var(--mut
 }
 /* Accessibility helpers */
 .visually-hidden{position:absolute !important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap}
+/* Image credits */
+.credit{font-size:.72rem;color:var(--muted);margin-top:5px;letter-spacing:.02em}
+/* Images inside card thumb spans */
+img.thumb{object-fit:cover}
+.card .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+/* Confidential tile */
+.confidential{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;background:#1c1c1c;width:100%;height:100%}
+.confidential .conf-label{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--accent)}
+.confidential .conf-sub{font-size:.65rem;color:#555;letter-spacing:.05em}
